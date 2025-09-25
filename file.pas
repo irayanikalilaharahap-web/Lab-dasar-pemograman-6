@@ -1,21 +1,24 @@
 uses crt;
 var 
-    panjang,lebar : integer;
-
+    // a, b, tambah, kurang, kali, modulo : integer;
+    // bagi : real;
+    p, l, luas, keliling : integer;
 begin
     clrscr;
     // writeln ('hello world');
+    // a := 10;
+    // b := 3;
     p := 5;
     l := 2;
 
-    luas := p * l;
-    keliling := 2 * p + l;
+    // tambah := a * b;
+    // kurang := a - b;
     // kali := a * b;
     // bagi := a / b;
     // modulo := a mod b;
 
-    writeln('hasil l  :', l);
-    writeln('hasil k :', k);
+    // writeln('hasil jumlah :', tambah);
+    // writeln('hasil kurang :', kurang);
     // writeln('hasil kali :', kali);
     // writeln('hasil bagi :', bagi:0:2); //4.00
     // writeln('hasil mod :', modulo);
@@ -40,9 +43,9 @@ begin
     // writeln(not true);
     // writeln(not false);
 
-    // luas lapangan := panjang * lebar;
-    // keliling lapangan := 2 * panjang + lebar;
+    luas := p * l;
+    keliling := 2 * (p + l);
 
-    // writeln('hasil luas lapangan :', luas lapangan);
-    // writeln('hasil keliling lapangan :', keliling lapangan);
+    writeln('hasil luas :', luas );
+    writeln('hasil keliling :', keliling);
 end.
